@@ -1,4 +1,4 @@
-# Etap 1: Obraz bazowy Scratch z aplikacją Go
+# Etap 1: Obraz bazowy Scratch z aplikacją GO
 FROM scratch AS app
 
 # Dodanie systemu plików
@@ -23,7 +23,7 @@ ENV PATH="/usr/local/go/bin:${PATH}"
 # Kopiowanie pliku main.go do kontenera
 COPY main.go .
 
-# Kompilacja aplikację go z wybraną wersją
+# Kompilacja aplikację GO z wybraną wersją
 RUN go build -ldflags "-X main.version=${APP_VERSION}" -o main main.go
 
 # Ustawienie punktu wejścia
