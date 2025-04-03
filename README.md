@@ -5,7 +5,7 @@ Sprawozdanie na laboratoria nr 5
 
 Obraz można pobrać poleceniem
 ```bash
-docker push extremical/lab5:latest
+docker pull extremical/lab5:latest
 ```
 Link do dockerhuba z obrazem: https://hub.docker.com/r/extremical/lab5
 
