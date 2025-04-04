@@ -24,7 +24,7 @@ Możemy sprawdzić czy kontener działa poprawnie poprzez polecenie
 docker ps
 ```
 ![Działanie polecenia docker ps](./docker_ps.png)
-Dockerfile zawiera healthcheck'i, które (jeśli kontener został uruchomiony przez terminal) ukażą nam stan naszego kontenera.
+Dockerfile zawiera healthcheck'i, które (jeśli kontener został uruchomiony przez terminal) też ukażą nam stan naszego kontenera.
 ```bash
 127.0.0.1 - - [03/Apr/2025:23:12:48 +0000] "GET / HTTP/1.1" 200 62 "-" "curl/8.12.1"
 2025/04/03 23:12:59 path: /
