@@ -19,7 +19,11 @@ docker run -p 8080:80 --hostname=cinammon extremical/lab5
 ```
 
 # Wyniki
-
+Możemy sprawdzić czy kontener działa poprawnie poprzez polecenie
+```bash
+docker ps
+```
+![Działanie polecenia docker ps](./docker_ps.png)
 Dockerfile zawiera healthcheck'i, które (jeśli kontener został uruchomiony przez terminal) ukażą nam stan naszego kontenera.
 ```bash
 127.0.0.1 - - [03/Apr/2025:23:12:48 +0000] "GET / HTTP/1.1" 200 62 "-" "curl/8.12.1"
@@ -32,3 +36,4 @@ Hostname: cinammon
 IP Address: 172.17.0.3
 App Version: 1.21.7
 ```
+![Działanie strony](./dzialanie_strony.png)
